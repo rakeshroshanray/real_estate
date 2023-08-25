@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: medium;
+    font-weight: bold;
+}
+.navbar a{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+.logo{
+    height: 30px;
+}
+.height{
+    height: 100vh;
+    width: 100%;
+
+}
+.img_center{
+    display: grid;
+    place-items: center;
+}
+.carousel-item{
+    min-height: 300px;
+}
+.carousel-caption{
+    text-align: left;
+    margin-bottom: 100px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 5vw;
+    line-height: 60px;
+}
+.carousel-caption p{
+    text-align: left;
+    font-size: 3vw; 
+    line-height: 1.9;
+    width: 60%;
+
+}
+.carousel-item .carousel-caption input{
+    padding: 0.73rem 1rem;
+}
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+* {
+    box-sizing: border-box;
+}
+.arrow-icon{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 768px) {
+    .coloumn{
+        width: 100%;
+    }
+}
